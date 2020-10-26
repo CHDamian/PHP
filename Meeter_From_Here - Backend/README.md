@@ -9,7 +9,7 @@ w zależności od eventu obiekt ten musi zawierać odpowiednie pola, przy czym p
 
 Każde zdarzenie zwraca w odpowiedzi parametr *status*, który przyjmuje wartość *error* w przypadku błędu lub *success* w przypadku sukcesu. W przypadku błędu zazwyczaj odpowiedź zawiera również parametr *errorMessage*. Pozostałe parametry są specyficzne dla poszczególnych zdarzeń.
 
-Poniżej przykładowe payload'y poszczególnych eventów (**eventy download są do obgadania**, podany jest bardziej jakiś szkic tago co będzie, niż jak jest zaplanowane):
+
 ### *UserCreated*
 #### *sessionID* – ignorowane.
 #### *eventData*:
